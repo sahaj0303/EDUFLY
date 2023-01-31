@@ -1,0 +1,57 @@
+body{
+    background-image: url(images/regs\ img.png);
+    background-repeat: no-repeat;
+    background-size:1550px 700px;
+    
+}
+
+.display-6{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    background-color:yellow;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 30px;
+    animation-name: first;
+    animation-duration: 6s;   
+}
+
+@keyframes first {
+    0%{background-color:yellow;left:0px;}
+    100%{background-color:red;left:600px;}
+    
+}
+
+.rh{
+    width: max-content;
+    border:5px solid black;
+    background-image: url(images/bg-edu.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label{
+    display:inline-block;
+    text-align: right;
+    padding-left: 10px;
+}
+
+.box{
+    text-align: center;
+}
+
+
+
+footer{
+    background-color:yellow;
+    text-align: center;
+    width: 100%;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+}

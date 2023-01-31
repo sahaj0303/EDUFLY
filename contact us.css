@@ -1,0 +1,45 @@
+.display-6{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    background-color:pink;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 30px;
+    animation-name: first;
+    animation-duration: 6s;   
+}
+
+@keyframes first {
+    0%{background-color:yellow;left:0px;}
+    100%{background-color:red;left:600px;}
+    
+}
+
+.col-4{
+    margin: auto;
+    text-align: center;
+}
+
+.col-8{
+    margin: auto;
+    text-align: left;
+    width: 80px;
+    font-size: 40px;
+    font-weight: bold;  
+}
+
+.row{
+    height: 40%;
+    width: 50%;
+}
+
+.box{
+    text-align: center;
+}
+
+body{
+    background-image: url(images/contact\ us.png);
+    background-repeat: no-repeat;
+    background-size: 1550px 700px;
+}
